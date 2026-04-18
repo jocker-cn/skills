@@ -14,6 +14,7 @@ This document defines the strict, non-negotiable engineering principles and arch
 ## 2) Skill Routing (Collaboration & Execution Modes)
 
 - Always pair repo-specific work with `.github/skills/gpbw-project/SKILL.md`.
+- Use `.skills/llm-behavior-guardrails/SKILL.md` when writing, reviewing, or refactoring code to avoid overcomplication, surface assumptions, and define verifiable success criteria.
 - Use `.skills/analysis-first-collaboration/SKILL.md` when the user wants diagnosis before edits and prefers small, reversible steps to understand the root cause before proposing broad solutions.
 - Use `.skills/maintainable-runtime-extension/SKILL.md` when the user wants new behavior added safely without a broad refactor, especially in complex or runtime-sensitive flows where logic should be added through local seams.
 - Use `.skills/runtime-sensitive-ui-debugging/SKILL.md` when runtime behavior, performance stability, timing, flicker, memory leaks, or reference stability are central to the task, rather than just static syntax correctness.
